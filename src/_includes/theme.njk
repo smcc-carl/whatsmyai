@@ -1,0 +1,31 @@
+---
+layout: base.njk
+
+---
+<section class="container mx-auto grid grid-cols-2 py-8 items-center bg-gray-700 my-6 rounded-3xl px-8">
+    <img src="{{ image }}" alt="imgAlt, {{ title }}" class="mx-auto w-[350px]">
+    <div class="-ml-16">
+        <p class="text-4xl font-semibold text-amber-300">{{ title }}</p>
+        <p class="pt-8">{{ description }}</p>
+        <p class="font-semibold text-amber-300 py-6 text-lg">{{ type }}</p>
+        <a href="{{ link }}" class="text-xl font-bold">Visit site</a>
+        <p>{{tags}}</p>
+    </div>
+</section>
+<p class="pl-[10%] mt-16 text-5xl">Related Tools</p>
+<section class="container mx-auto py-8 bg-gray-700 my-6 rounded-3xl px-8 items-center">
+    <div class="">
+        <ul class="grid grid-cols-6 gap-10 mx-auto ">
+            {# Add random filter and limit to 6 items #}
+            {% set randomCols = collections.col | random(6) %}
+            {% for col in randomCols %}
+            <a href="{{col.url}}">
+                <li class="border border-gray-700 rounded-3xl p-4">
+                    <img src="{{col.data.image}}" alt="" class="w-18">
+                    <p class="text-xl font-medium mt-4 text-amber-300">{{col.data.title}}</p>
+                </li>
+            </a>
+            {% endfor %}
+        </ul>
+    </div>
+</section>

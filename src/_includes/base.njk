@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/whats-2.png">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+     <title>{{ title }}</title>
+<body class="bg-gray-800 text-gray-200 font-family: aileron">
+
+        {%- include 'header.njk' -%}
+        <main>
+        {{ content | safe }}
+        </main>
+        {%- include 'footer.njk' -%}
+
+   
     
-    <title>{{ title }}</title>
 
-    <script src="https://cdn.lordicon.com/lordicon.js"></script>
-
-</head>
-<body>
-    <main>
-    {%- include 'header.njk' -%}
-    {{ content | safe }}
-    {%- include 'footer.njk' -%}
-    </main>
+<div id="app"></div>
+<script type="module" src="/main.js"></script>
 </body>
 </html>

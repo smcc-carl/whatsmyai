@@ -1,0 +1,23 @@
+---
+layout: base.njk
+title: Featured Collections
+---
+
+<section class="py-16">
+    <p class="text-center text-5xl font-semibold">Featured Collections</p>
+    <div class="container mx-auto mt-8">
+        <ul class="grid grid-cols-5 gap-6">
+            {% for featured in collections.featured %}
+            
+            <a href="{{featured.url}}">
+                <li class="border border-gray-700 hover:shadow hover:shadow-gray-700 hover:shadow-lg hover:-mt-2 hover:transition hover:duration-700 hover:ease-in-out p-4 rounded-3xl">
+                    <img src="{{featured.data.image}}" alt="" class="w-18">
+                    <p class="text-xl font-medium mt-4 text-amber-300">{{featured.data.title}}</p>
+                    <p class="line-clamp-3 mt-4 text-gray-500">{{featured.data.description}}</p>
+                </li>
+            </a>
+            
+            {% endfor %}
+        </ul>
+    </div>
+</section>
