@@ -1,0 +1,203 @@
+[
+
+  {
+    "title": "AllTrails",
+    "description": "AllTrails GPT is an AI-powered assistant designed to help hikers, runners, and outdoor enthusiasts discover the best trails, provide real-time trail conditions, and offer personalized recommendations based on location, difficulty, and user preferences.",
+    "tags": ["ai","gpt","col"],
+    "url": "/ai/alltrails-gpt/",
+    "image": "https://img.icons8.com/?size=350&id=Nts60kQIvGqe&format=png&color=ffffff"
+  },
+
+  {
+    "title": "Bolt.new",
+    "description": "Bolt.new is a fast and lightweight productivity app designed to help users quickly capture ideas, tasks, and notes in a streamlined interface. It emphasizes speed and simplicity, allowing users to create and organize content with minimal friction. Ideal for individuals seeking a distraction-free tool for brainstorming, task management, or quick note-taking, Bolt.new prioritizes efficiency and ease of use.",
+    "tags": ["ai","featured","web","col"],
+    "url": "/ai/bolt/",
+    "image": "https://cdn-1.webcatalog.io/catalog/bolt-new/bolt-new-icon-filled-256.png?v=1730692903154"
+  },
+
+  {
+    "title": "Cline",
+    "description": "Cline is an autonomous coding agent designed specifically for Visual Studio Code (VSCode), revolutionizing the way developers write and manage code. Powered by advanced AI, Cline assists with code generation, debugging, refactoring, and optimization, enabling faster and more efficient development workflows. It seamlessly integrates into VSCode, offering real-time suggestions, automating repetitive tasks, and helping developers focus on creativity and problem-solving. Whether you're a beginner or an experienced coder, Cline acts as your intelligent coding companion, enhancing productivity and code quality.",
+    "tags": ["ai","featured","web","col"],
+    "url": "/ai/cline/",
+    "image": "https://media.licdn.com/dms/image/v2/D560BAQFrAfqAHTmcag/company-logo_200_200/company-logo_200_200/0/1737146073188/clinebot_logo?e=2147483647&v=beta&t=AkThUaEsiSTXqGg_Yf-XtjOqVZAQCZc32-bhH78solA"
+  },
+
+  {
+    "title": "Consistent Character Gpt",
+    "description": "Consistent Character GPT is an AI-powered tool designed to maintain character consistency in storytelling, roleplaying, and content creation. It ensures characters stay true to their personalities, speech patterns, and behaviors across different dialogues and narratives, making it ideal for writers, game developers, and roleplayers. 🎭✍️🚀",
+    "tags": ["ai","gpt","col"],
+    "url": "/ai/consistent-character-gpt/",
+    "image": "https://img.icons8.com/?size=350&id=Nts60kQIvGqe&format=png&color=ffffff"
+  },
+
+  {
+    "title": "Deepsek",
+    "description": "DeepSeek is an advanced AI-powered search and research assistant designed to provide deep, accurate, and context-aware insights. It helps users discover relevant information, analyze complex topics, and generate summaries by leveraging AI-driven search capabilities. Ideal for researchers, writers, and professionals seeking precise and meaningful data. 🔍🤖📚",
+    "tags": ["ai","featured","chat","col"],
+    "url": "/ai/deepseek/",
+    "image": "/assets/deepseek-color.svg"
+  },
+
+  {
+    "title": "Landing Page Creator",
+    "description": "Landing Page Creator from HubSpot (ChatGPT ) is an AI-powered assistant designed to help users create high-converting landing pages effortlessly. It leverages HubSpot’s powerful landing page tools along with AI-driven recommendations for design, copywriting, and optimization. Whether you're generating leads, promoting a product, or running a campaign, this GPT provides expert guidance, best practices, and actionable insights to maximize conversions. 🚀🎯",
+    "tags": ["ai","gpt","col"],
+    "url": "/ai/landing-page-creator-from-hubspot/",
+    "image": "https://img.icons8.com/?size=350&id=Nts60kQIvGqe&format=png&color=ffffff"
+  },
+
+  {
+    "title": "Lovable.dev",
+    "description": "RLovable.dev is a creative and user-focused platform or tool designed to help developers and teams build products that users truly love. By combining intuitive design, actionable insights, and user-centric development practices, Lovable.dev empowers creators to craft meaningful, engaging, and delightful experiences. Whether you're refining your user interface, gathering feedback, or iterating on features, Lovable.dev ensures your product resonates with its audience, fostering loyalty and satisfaction. It’s the perfect companion for teams committed to building lovable, human-centered software.",
+    "tags": ["ai","featured","web","col"],
+    "url": "/ai/lovable/",
+    "image": "https://media.licdn.com/dms/image/v2/D4E0BAQHd4ynfWCL4Wg/company-logo_200_200/company-logo_200_200/0/1719927791284/lovable_dev_logo?e=2147483647&v=beta&t=kUnLyikx7Un2v_-RIl-qqCloQ7m9HDkIHErlYa2JoGA"
+  },
+
+  {
+    "title": "Media.io",
+    "description": "Media.io is an all-in-one online media processing platform offering AI-powered tools for video, audio, and image editing. It provides features like background removal, noise reduction, file conversion, and video enhancement—making content creation fast and effortless for professionals and casual users alike. 🎬🎧✨",
+    "tags": ["ai","featured","video","col"],
+    "url": "/ai/media-io/",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWpeshUyrckhrod7GG2ff_rkf0LRgr6V-M3Q&s"
+  },
+
+  {
+    "title": "Melies.co",
+    "description": "Mélies is an innovative AI-powered filmmaking tool designed to bring your creative visions to life. With cutting-edge technology, it simplifies the filmmaking process, helping you craft stunning movies by transforming your ideas into visually captivating stories. Perfect for filmmakers of all levels, Mélies combines artistry and AI to make professional-quality filmmaking accessible and effortless.",
+    "tags": ["ai","video","col"],
+    "url": "/ai/melies-io/",
+    "image": "https://aws.amazon.com/startups/upload/34e8a468-8021-7011-176b-3d42cb04d6fe/49a8baf1-62ce-468a-896e-2b9f136c2066.jpg"
+  },
+
+  {
+    "title": "Photo Multiverse",
+    "description": "Wix AI Website Builder powered by ChatGPT is an advanced tool that streamlines website creation by combining Wix’s intuitive design capabilities with ChatGPT’s AI-driven content generation. It helps users build professional, fully customized websites by generating text, layouts, and design elements based on user inputs—making website development faster and more accessible. 🚀💡",
+    "tags": ["ai","gpt","col"],
+    "url": "/ai/photo-multiverse/",
+    "image": "https://img.icons8.com/?size=350&id=Nts60kQIvGqe&format=png&color=ffffff"
+  },
+
+  {
+    "title": "Photo Realistic Image GPT",
+    "description": "Photo Realistic Image GPT is an advanced AI model designed to create highly detailed, lifelike images from textual descriptions. Leveraging cutting-edge generative technology, it can produce visuals that closely resemble real photographs, making it ideal for applications in art, design, marketing, and virtual environments. Its ability to interpret and translate complex prompts into stunning, realistic imagery sets it apart as a powerful tool for creative professionals and enthusiasts alike.",
+    "tags": ["ai","gpt","col"],
+    "url": "/ai/photo-realistic-image-gpt copy/",
+    "image": "https://img.icons8.com/?size=350&id=Nts60kQIvGqe&format=png&color=ffffff"
+  },
+
+  {
+    "title": "Presentation and Slide GPT",
+    "description": "Presentation and Slide GPT refers to AI-powered tools designed to assist in creating professional, visually appealing presentations and slides. These tools leverage natural language processing (NLP) and generative AI to automate the process of designing slides, generating content, and organizing information into a cohesive format. They are ideal for professionals, educators, and students who want to save time and create impactful presentations.",
+    "tags": ["ai","gpt","col"],
+    "url": "/ai/presentation-and-slide-gpt/",
+    "image": "https://img.icons8.com/?size=350&id=Nts60kQIvGqe&format=png&color=ffffff"
+  },
+
+  {
+    "title": "RooCode",
+    "description": "RooCode is a cutting-edge platform or tool designed to simplify and enhance the coding experience for developers. Leveraging advanced AI and automation, RooCode assists with tasks like code generation, debugging, optimization, and real-time error detection. It aims to streamline development workflows, reduce manual effort, and improve code quality, making it an invaluable tool for developers of all skill levels. Whether you're building applications, debugging complex systems, or learning to code, RooCode empowers you to work smarter and faster.",
+    "tags": ["ai","featured","web","col"],
+    "url": "/ai/roocode/",
+    "image": "https://styles.redditmedia.com/t5_dd2ytv/styles/communityIcon_rfye56mbawee1.png"
+  },
+
+  {
+    "title": "SciSpace",
+    "description": "SciSpace (previously known as Typeset) is an AI-powered platform designed to assist researchers, academics, and students in navigating, understanding, and writing scientific literature. It simplifies the process of reading and comprehending complex research papers by providing tools like summarization, explanations of technical terms, and citation management.",
+    "tags": ["ai","gpt","col"],
+    "url": "/ai/scispace/",
+    "image": "https://img.icons8.com/?size=350&id=Nts60kQIvGqe&format=png&color=ffffff"
+  },
+
+  {
+    "title": "Sivi AI Designer",
+    "description": "Sivi AI Designer is an AI-powered tool that automates the creation of stunning marketing visuals, social media graphics, and ads. It quickly generates high-quality designs based on text prompts, brand guidelines, and industry trends—helping businesses and marketers create engaging content effortlessly. 🎨🤖🚀",
+    "tags": ["ai","gpt","col"],
+    "url": "/ai/sivi-ai-designer/",
+    "image": "https://img.icons8.com/?size=350&id=Nts60kQIvGqe&format=png&color=ffffff"
+  },
+
+  {
+    "title": "Video GPT by Veed",
+    "description": "Video GPT by VEED is an AI-powered tool integrated into the VEED.io online video editing platform. It leverages generative AI to simplify video creation, editing, and enhancement for users of all skill levels. Whether you're a content creator, marketer, or casual user, Video GPT by VEED helps you produce professional-quality videos quickly and efficiently.",
+    "tags": ["ai","gpt","col"],
+    "url": "/ai/video-gpt-by-veed/",
+    "image": "https://img.icons8.com/?size=350&id=Nts60kQIvGqe&format=png&color=ffffff"
+  },
+
+  {
+    "title": "Wix AI Website Builder",
+    "description": "Wix AI Website Builder powered by ChatGPT is an advanced tool that streamlines website creation by combining Wix’s intuitive design capabilities with ChatGPT’s AI-driven content generation. It helps users build professional, fully customized websites by generating text, layouts, and design elements based on user inputs—making website development faster and more accessible. 🚀💡",
+    "tags": ["ai","gpt","col"],
+    "url": "/ai/wix-ai-website-builder/",
+    "image": "https://img.icons8.com/?size=350&id=Nts60kQIvGqe&format=png&color=ffffff"
+  },
+
+  {
+    "title": "Dora.run",
+    "description": "Dora.run is a platform designed to help engineering teams measure and improve their software delivery performance using the DevOps Research and Assessment (DORA) framework. It provides tools to track key metrics like deployment frequency, lead time, change failure rate, and mean time to recovery, offering actionable insights to optimize workflows and enhance efficiency. With intuitive dashboards and seamless integration into existing CI/CD pipelines, Dora.run empowers teams to align with DevOps best practices and drive continuous improvement in their development processes.",
+    "tags": ["ai","featured","web","col"],
+    "url": "/ai/dora/",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxT3aZJsCGuUuACCE-pobbb2-irHOd_Tbeig&s"
+  },
+
+  {
+    "title": "Replit",
+    "description": "Replit is a cloud-based coding platform that allows users to write, run, and collaborate on code in real-time directly from their browser. It supports multiple programming languages and offers features like built-in AI tools, web hosting, and seamless project sharing, making it ideal for learning, prototyping, and teamwork. With its user-friendly interface and collaborative capabilities, Replit is a popular choice for students, educators, and developers looking to streamline their coding workflow.",
+    "tags": ["ai","featured","web","col"],
+    "url": "/ai/replit/",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8YWwPXFu8ZC8spY0xabt3uX0DCSsZYoY_uA&s"
+  },
+
+  {
+    "title": "Prezi AI",
+    "description": "Prezi.com is a dynamic presentation software that offers an alternative to traditional slide-based tools like PowerPoint. It uses a zoomable canvas to create visually engaging, non-linear presentations that captivate audiences. With features like customizable templates, collaboration tools, and cloud-based access, Prezi is widely used for storytelling, educational content, and business presentations.",
+    "tags": ["ai","presentation","col"],
+    "url": "/ai/prezi/",
+    "image": "https://www.pngfind.com/pngs/m/683-6832526_prezi-logo-png-transparent-png.png"
+  },
+
+  {
+    "title": "Pitch.com",
+    "description": "Pitch.com is a modern presentation software designed to help teams create, collaborate on, and deliver stunning presentations with ease. It combines intuitive design tools with powerful collaboration features, enabling users to craft professional slides quickly and efficiently. Pitch is ideal for businesses, startups, and individuals looking to streamline their presentation workflow while maintaining a polished and engaging aesthetic.",
+    "tags": ["ai","presentation","col"],
+    "url": "/ai/pitch/",
+    "image": "https://play-lh.googleusercontent.com/5fmDLRJBNYTc7eufACxGoTFhkgMA_g3Ack9THlc-uNFBCrU8jXOvMP-DfRXZLKFamhk"
+  },
+
+  {
+    "title": "Popai.pro",
+    "description": "PopAi.pro is an AI-powered platform designed to enhance productivity and creativity by offering tools for generating, analyzing, and optimizing content. It leverages advanced artificial intelligence to assist users in tasks such as writing, data analysis, and decision-making, making it a versatile solution for professionals and businesses. With its intuitive interface and powerful features, PopAi.pro aims to simplify complex workflows and unlock new levels of efficiency.",
+    "tags": ["ai","presentation","col"],
+    "url": "/ai/popai/",
+    "image": "https://aimojo.io/wp-content/uploads/2024/06/Pop-AI-logo.webp"
+  },
+
+  {
+    "title": "SlidesAI.io",
+    "description": "SlidesAI.io is an AI-powered tool designed to simplify the process of creating professional presentations. It automatically generates slides from text input, saving users time and effort in designing and formatting. Ideal for professionals, educators, and students, SlidesAI.io streamlines presentation creation with its intuitive interface and smart AI capabilities.",
+    "tags": ["ai","presentation","col"],
+    "url": "/ai/slidesai/",
+    "image": "https://yt3.googleusercontent.com/f7zF2K-_5UjLF2AsAj9tAVsNCtCR-8wg1gPWinWHUCo4LiP2xFAKNArKfwCt9_G5rRWjvLLr8A=s900-c-k-c0x00ffffff-no-rj"
+  },
+
+  {
+    "title": "Slidebean",
+    "description": "Slidebean is a powerful online platform designed to simplify the process of creating professional presentations, pitch decks, and business proposals. It uses AI-driven design tools to automatically format and structure slides, ensuring a polished and visually appealing result. Ideal for entrepreneurs, startups, and professionals, Slidebean saves time and effort while delivering high-quality presentations.",
+    "tags": ["ai","presentation","col"],
+    "url": "/ai/slidebean/",
+    "image": "https://pbs.twimg.com/profile_images/1486862487106592771/lh9sD6Ne_400x400.png"
+  },
+
+  {
+    "title": "Beautiful AI",
+    "description": "Beautiful.ai is a presentation design platform that leverages artificial intelligence to help users create professional, visually appealing slides quickly and effortlessly. It offers a variety of smart templates and design tools that automatically adjust layouts, fonts, and colors to maintain consistency and aesthetics. Ideal for professionals, educators, and teams, Beautiful.ai simplifies the process of crafting polished presentations without requiring advanced design skills.",
+    "tags": ["ai","presentation","col"],
+    "url": "/ai/beautiful-ai/",
+    "image": "https://image.pngaaa.com/677/5527677-middle.png"
+  }
+
+]

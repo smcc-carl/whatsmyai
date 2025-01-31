@@ -9,8 +9,11 @@ layout: base.njk
         <p class="pt-8">{{ description }}</p>
         <p class="font-semibold text-amber-300 py-6 text-lg">{{ type }}</p>
         <a href="{{ link }}" class="text-xl font-bold">Visit site</a>
-        <p>{{tags}}</p>
+        
     </div>
+</section>
+<section class="container mx-auto  p-16 bg-gray-700 rounded-3xl text-lg ">
+    {{ content | safe }}
 </section>
 <p class="pl-[10%] mt-16 text-5xl">Related Tools</p>
 <section class="container mx-auto py-8 bg-gray-700 my-6 rounded-3xl px-8 items-center">

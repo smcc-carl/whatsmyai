@@ -4,12 +4,21 @@ title: Your Best AI Tools Finder
 ---
 
 
-<section style="background: url('./assets/bg1.gif'); background-size: cover;">
+<section style="background: url('/assets/bg1.gif'); background-size: cover;">
     <div class="bg-black/90 py-32">
     <p class="text-7xl font-bold text-center mb-6">Your Best AI Tools Finder</p>
-    <form action="" class="px-[30%]">
-        <input class="border border-white w-[100%] px-4 italic rounded-3xl py-2" type="text"  placeholder="Search the tools you need.">
+    <form class="px-[30%]" onsubmit="return false;">
+        <input 
+            id="search-input" 
+            class="border border-white w-[100%] px-4 italic rounded-3xl py-2 bg-transparent text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-300" 
+            type="text" 
+            placeholder="Search the tools you need."
+            aria-label="Search AI tools"
+        >
     </form>
+    
+    <!-- Results Container -->
+  
 
     <div class="mt-16 container mx-auto grid grid-cols-3 px-[10%]">
         <div class="text-center">
@@ -27,11 +36,12 @@ title: Your Best AI Tools Finder
     </div>
     </div>
 </section>
+<div id="search-results" class="mt-16 container mx-auto grid grid-cols-3 px-[10%] gap-6"></div>
 <p class="text-center text-5xl font-semibold my-16">AI Tools For You</p>
 
 <section class="">
     
-    <div class="container mx-auto mt-16 bg-gray-800">
+    <div id="original-content" class="container mx-auto mt-16 bg-gray-800">
         <div class="flex justify-between">
         <p class="text-3xl font-medium">Featured</p>
         <a href="/collections/gpt" class="border text-amber-300 border-amber-300 rounded-full py-3 px-8 hover:bg-amber-300 hover:text-gray-800">View all collections</a>
@@ -58,10 +68,12 @@ title: Your Best AI Tools Finder
 <hr class="container mx-auto border-gray-700 border-.5 my-16">
 <section class="">
     
-    <div class="container mx-auto  bg-gray-800">
+    <div id="original-content" class="container mx-auto  bg-gray-800">
         
-        <p class="text-3xl font-medium">Categories</p>
-   
+        <div class="flex justify-between">
+            <p class="text-3xl font-medium">Categories</p>
+            <a href="/collections/gpt" class="border text-amber-300 border-amber-300 rounded-full py-3 px-8 hover:bg-amber-300 hover:text-gray-800">View all Categories</a>
+        </div>
       
         <div class="container mx-auto mt-8">
             <ul class="grid grid-cols-5 gap-8 mx-auto">
@@ -69,12 +81,109 @@ title: Your Best AI Tools Finder
               
                     <li class="border border-gray-700 rounded-3xl p-4">
                         <div class="mx-auto">
+                            <p class="text-center text-2xl text-green-300 font-semibold pb-4">Web Development</p>
+                            {% for web in collections.web %}
+                                {%- if loop.index0 <6 -%}
+                               
+                        <div class=" gap-2 py-1 text-center">
+                        <a href="{{web.url}}">
+                        <div class="flex items-center gap-4">
+                        <img src="{{web.data.image}}" alt="" class="w-8">
+                        <p class=" text-md  hover:text-green-300">{{web.data.title}}</p>
+                        </div>
+                        </a>
+                    </div>
+
+                       
+                        {%- endif -%}
+                        {% endfor %}
+                        <div class="w-full text-center mt-10">
+                            <a href="#" class="rounded-full px-8 py-3 bg-green-300 text-gray-700 hover:bg-transparent hover:border hover:border-amber-300 hover:text-amber-300">View all Collections</a>
+                        </div>
+                        </div>
+
+                    </li>
+            
+                    <li class="border border-gray-700 rounded-3xl p-4">
+                        <div class="mx-auto">
+                            <p class="text-center text-2xl text-green-300 font-semibold pb-4">Presentation</p>
+                            {% for presentation in collections.presentation %}
+                                {%- if loop.index0 <6 -%}
+                               
+                        <div class=" gap-2 py-1 text-center">
+                        <a href="{{presentation.url}}">
+                        <div class="flex items-center gap-4">
+                        <img src="{{presentation.data.image}}" alt="" class="w-8">
+                        <p class=" text-md  hover:text-green-300">{{presentation.data.title}}</p>
+                        </div>
+                        </a>
+                    </div>
+
+                       
+                        {%- endif -%}
+                        {% endfor %}
+                        <div class="w-full text-center mt-10">
+                            <a href="#" class="rounded-full px-8 py-3 bg-green-300 text-gray-700 hover:bg-transparent hover:border hover:border-amber-300 hover:text-amber-300">View all Collections</a>
+                        </div>
+                        </div>
+
+                    </li>
+                    <li class="border border-gray-700 rounded-3xl p-4">
+                        <div class="mx-auto">
+                            <p class="text-center text-2xl text-green-300 font-semibold pb-4">Image</p>
+                            {% for image in collections.image %}
+                                {%- if loop.index0 <6 -%}
+                               
+                        <div class=" gap-2 py-1 text-center">
+                        <a href="{{image.url}}">
+                        <div class="flex items-center gap-4">
+                        <img src="{{image.data.image}}" alt="" class="w-8">
+                        <p class=" text-md  hover:text-green-300">{{image.data.title}}</p>
+                        </div>
+                        </a>
+                    </div>
+
+                       
+                        {%- endif -%}
+                        {% endfor %}
+                        <div class="w-full text-center mt-10">
+                            <a href="#" class="rounded-full px-8 py-3 bg-green-300 text-gray-700 hover:bg-transparent hover:border hover:border-amber-300 hover:text-amber-300">View all Collections</a>
+                        </div>
+
+                    </li>
+                    <li class="border border-gray-700 rounded-3xl p-4">
+                        <div class="mx-auto">
+                            <p class="text-center text-2xl text-green-300 font-semibold pb-4">Video</p>
+                            {% for video in collections.video %}
+                                {%- if loop.index0 <6 -%}
+                               
+                        <div class=" gap-2 py-1 text-center">
+                        <a href="{{video.url}}">
+                        <div class="flex items-center gap-4">
+                        <img src="{{video.data.image}}" alt="" class="w-8">
+                        <p class=" text-md  hover:text-green-300">{{video.data.title}}</p>
+                        </div>
+                        </a>
+                    </div>
+
+                       
+                        {%- endif -%}
+                        {% endfor %}
+                        <div class="w-full text-center mt-10">
+                            <a href="#" class="rounded-full px-8 py-3 bg-green-300 text-gray-700 hover:bg-transparent hover:border hover:border-amber-300 hover:text-amber-300">View all Collections</a>
+                        </div>
+                        </div>
+
+                    </li>
+            
+                    <li class="border border-gray-700 rounded-3xl p-4">
+                        <div class="mx-auto">
                             <p class="text-center text-2xl text-green-300 font-semibold pb-4">GPT Collections</p>
                             {% for gpt in collections.gpt %}
                                 {%- if loop.index0 <6 -%}
                                
                         <div class=" gap-2 py-1 text-center">
-                            <a href="{{gpt.url}}">
+                        <a href="{{gpt.url}}">
                         <div class="flex items-center gap-4">
                         <img src="{{gpt.data.image}}" alt="" class="w-8">
                         <p class=" text-md  hover:text-green-300">{{gpt.data.title}}</p>
@@ -86,34 +195,11 @@ title: Your Best AI Tools Finder
                         {%- endif -%}
                         {% endfor %}
                         <div class="w-full text-center mt-10">
-                        <a href="#" class="rounded-full px-8 py-3 bg-green-300 text-gray-700">View all Collections</a>
+                        <a href="#" class="rounded-full px-8 py-3 bg-green-300 text-gray-700 hover:bg-transparent hover:border hover:border-amber-300 hover:text-amber-300">View all Collections</a>
                         </div>
                         </div>
 
                     </li>
-                    <li class="border border-gray-700 rounded-3xl p-4">
-                        <div class="mx-auto">
-                            <p class="text-center text-2xl text-green-300 font-semibold pb-4">Web Development</p>
-                            {% for assistant in collections.assistant %}
-                                {%- if loop.index0 <6 -%}
-                               
-                        <a href="{{gpt.url}}">
-                        <div class="flex gap-2 py-2 text-center">
-                        <img src="{{gpt.data.image}}" alt="" class="w-10">
-                        <p class="  mt-4 hover:text-green-300">{{gpt.data.title}}</p>
-                        </div>
-                        </a>
-
-                       
-                        {%- endif -%}
-                        {% endfor %}
-                        <div class="w-full text-center mt-10">
-                        <a href="#" class="rounded-full px-8 py-3 bg-green-300 text-gray-700">View all Collections</a>
-                        </div>
-                        </div>
-
-                    </li>
-            
                
             </ul>
         </div>
